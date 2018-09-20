@@ -1,0 +1,30 @@
+h4{
+    margin: 0 0 10px;
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+h4 svg{
+    margin-left: 10px;
+}
+.callToAction{
+  
+}
+h2.title{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+h3.title{
+    color: #0d44bf;
+    font-size: 14px;
+    margin-left: 25px;
+    margin-bottom:15px;
+    margin-top: 0px;
+    text-decoration: underline;
+    font-weight: 600;}
+div[contenteditable="true"]{
+   border: 1px solid #0d44bf;
+}    

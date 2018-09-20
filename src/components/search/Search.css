@@ -1,0 +1,19 @@
+.SearchButton{
+    position: absolute;
+    right: -20px;
+    top: 15px;
+}
+.SearchContainer{
+    position: relative;
+}
+
+.SearchInput{
+    padding-right: 30px;
+}
+
+.SearchButton span:nth-child(2){
+    display: none;
+}
+.SearchButton button:hover{
+    background: none!important;
+}

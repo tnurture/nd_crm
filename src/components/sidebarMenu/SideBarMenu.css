@@ -1,0 +1,37 @@
+.label{
+    background: red;
+}
+.llsdl{
+    background: red;   
+}
+i{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background: url("../../assets/images/sidebarIcons.png")  no-repeat;
+}
+.Home i{
+    background-position: 0 0;
+}
+.Companies i{
+    background-position: 0 -46px;
+}
+.Leads i{
+    background-position: 0 -93px;
+}
+.Jobs i{
+    background-position: 0 -141px;
+}
+.Actions i{
+    background-position: 0 -192px;
+}
+.Reports i{
+    background-position: 0 -236px;
+}
+.More i{
+    background-position: 0 -286px;
+}
+a{
+    padding-right: 10px;
+    display: block;
+}

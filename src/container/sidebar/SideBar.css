@@ -1,0 +1,15 @@
+.MenuListSec{
+   /* background: #2e3655d9; */
+   height: 100%;
+   color: #fff;
+}
+.SearchContainer{
+    padding: 0 10px 25px 10px;
+}
+.SearchMiniContainer{
+    padding: 0 10px 0px 10px;
+}
+
+.whiteColor svg{
+    color: #fff;
+}

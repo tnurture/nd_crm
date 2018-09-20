@@ -1,0 +1,15 @@
+.searchSecArea{
+    max-width: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+    .searchSecArea{
+        max-width: 90px;
+    }
+}
+.icon{
+    width: 16px;
+    height: 14px;
+    display: inline-block;
+    background: url("../../assets/images/filter.png") no-repeat center 3px ;
+  }

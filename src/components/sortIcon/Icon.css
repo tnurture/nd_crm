@@ -1,0 +1,26 @@
+.arrowUp {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    display: block;
+    border-bottom: 5px solid #98999f;
+    margin-left: 4px;
+    margin-bottom: 2px;
+  }
+  .arrowDown {
+    width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  display: block;
+  border-top: 5px solid #ffffff;
+  margin-left: 4px;
+  }
+
+ .active .arrowUp {
+    border-bottom-color: #ffffff;
+ }
+ .active  .arrowDown {
+    border-top-color:  #98999f;
+ }

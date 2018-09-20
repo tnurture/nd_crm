@@ -1,0 +1,27 @@
+.menuBurger span{
+width: 25px;
+height: 2px;
+display: inline-block;
+background: #fff;
+display:block;
+margin-top: 6px;
+}
+.menuBurger span:first-child{
+    margin-top: 0
+}
+.menuBurger{
+    background-color: #142075;
+    padding: 15px 15px 5px;
+    cursor: pointer;
+}
+
+.menuBurger span:last-child{
+   float: right;
+   width: 18px;
+    }
+.menuBurgerItem{
+        width: 25px;
+    }
+    .menuBurger span:nth-child(2){
+        background: #a1a6c8;}
+    

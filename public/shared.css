@@ -1,0 +1,72 @@
+a{
+    text-decoration: none!important;
+  }
+
+body{
+  font-size: 14px;
+}
+.sideBarWrapper ::before{
+  border-bottom-color: #ccc!important
+}
+.sideBarWrapper ::after{
+  border-bottom-color: #fff!important
+}
+.primaryRoundedBtn{
+border: none;
+min-height: 33px;
+color: #fff;
+min-width: 80px;
+border-radius: 33px;
+margin-left: 10px;
+cursor: pointer;
+border:1px solid #4d15c9;
+background-image: linear-gradient(to right bottom, #4d15c9, #3c2bc1, #3037b7, #2a3fac, #2b459f);}
+
+.primaryRoundedBtn:hover{
+background-image: linear-gradient(to right bottom, #4d15c9, #4d15c9, #4d15c9, #4d15c9, #4d15c9);}
+.filterRoundedBtn, .cancelRoundedBtn{
+  background-image: none;
+  background-color: #fff;
+  border:1px solid #ccc;
+  color: #333333;
+}
+.primaryRoundedBtn.filterRoundedBtn:hover,.primaryRoundedBtn.cancelRoundedBtn:hover{
+  background-image: linear-gradient(to right bottom, #ccc, #ccc, #ccc, #ccc, #ccc);}
+.ml0{
+  margin-left: 0
+}
+.mt10{
+  margin-top: 15px;
+}
+textarea{
+  padding: 5px!important
+}
+.NotoficationContainer a{
+  margin-top: 8px; 
+}
+.NotoficationContainer{
+  display: flex;
+  justify-content:space-around;
+  padding: 0 5px;
+  align-items: center;
+  width: 200px;
+  cursor: pointer;
+}
+.MiniNotoficationContainer a{
+  display: block;
+  margin-top: 8px; 
+  text-align: center;
+  width: 56px;
+  cursor: pointer;
+}
+h2{
+  color: #142075;
+  font-size: 18px;
+}
+
+@media only screen and (min-height: 600px) {
+  .MiniNotoficationContainer, .NotoficationContainer{
+    position: fixed;
+    bottom: 10px;
+  }
+}
